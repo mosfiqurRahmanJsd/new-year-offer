@@ -8,7 +8,9 @@
   padding: 0;
 }
 
-
+.container {
+  width: 1320px;
+}
 
 
 /* 
@@ -44,10 +46,9 @@
 
 /* header style */
 #header {
-  width: 1320px;
   border-radius: 16px;
   height: 600px;
-  background-image: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url('./../images/top-banner.png');
+  background-image: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url('./../images/top-banner.png');
   margin: 50px auto;
   display: flex;
   justify-content: center;
@@ -110,12 +111,14 @@
   margin-bottom: 48px;
 }
 
+.offer-content img {
+  border: 2px dashed lightgray;
+}
 
 /* party style */
 .party {
-  width: 1320px;
   height: 600px;
-  background-image: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url('./../images/Vectorrr.png');
+  background-image: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url('./../images/Vectorrr.png');
   border-radius: 16px;
   background-repeat: no-repeat;
   margin: 0 auto;
@@ -138,6 +141,7 @@
   line-height: 88px;
   margin-bottom: 24px;
 }
+
 .party-content p {
   color: rgba(255, 255, 255, 0.8);
   font-family: "Inter", sans-serif;
@@ -146,6 +150,7 @@
   line-height: 30px;
   margin-bottom: 48px;
 }
+
 .party-content button {
   color: rgb(255, 255, 255);
   font-family: "Inter", sans-serif;
@@ -159,4 +164,49 @@
 
 .party-img {
   padding-right: 100px;
+}
+
+.party-img img {
+  border: 2px dashed lightgray;
+}
+
+
+/* victor style */
+#victor {
+  height: 482px;
+  border-radius: 16px;
+  background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+  margin:  0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.victor-content {
+  text-align: center;
+}
+
+.victor-content h3 {
+  color:rgb(7, 2, 17); 
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+}
+
+.victor-content span {
+  color: rgb(255, 0, 0);
+}
+
+.victor-btn {
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 0, 0);
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 16px 32px;
+  border: 0;
+  border-radius: 8px;
+  margin-top: 48px;
 }
