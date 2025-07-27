@@ -176,7 +176,7 @@
   height: 482px;
   border-radius: 16px;
   background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
-  margin:  0 auto;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -188,7 +188,7 @@
 }
 
 .victor-content h3 {
-  color:rgb(7, 2, 17); 
+  color: rgb(7, 2, 17);
   font-family: "Inter", sans-serif;
   font-size: 32px;
   font-weight: 600;
@@ -209,4 +209,73 @@
   border: 0;
   border-radius: 8px;
   margin-top: 48px;
+}
+
+/* coming soon style */
+#coming-soon {
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+
+.box-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.box-1 {
+  padding-right: 70px;
+}
+
+.box-1 .title {
+  color: rgb(255, 0, 0);
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.box-1 .sub-title {
+  color: rgb(7, 2, 17);
+  font-family: "Merriweather", serif;
+  font-size: 48px;
+  margin-bottom: 22px;
+}
+
+.box-1 .description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.box-3 .title {
+  color: rgb(255, 0, 0);
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.box-2 {
+  padding-right: 118px;
+}
+
+.box-2 img {
+  box-sizing: border-box;
+  padding: 38px;
+  border: 15px solid rgb(255, 0, 0);
+  border-radius: 50%;
+  
+}
+
+
+.box-3 .description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 43px;
 }
