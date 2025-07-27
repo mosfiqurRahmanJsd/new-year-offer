@@ -423,7 +423,7 @@
 }
 
 .email-box input[type="email"] {
-  
+
   width: 438px;
   border-radius: 50px 0 0 50px;
 }
@@ -432,4 +432,67 @@
 .email-box input[placeholder] {
   font-family: "Inter", sans-serif;
   padding: 25px 30px;
+}
+
+
+/* footer style */
+#footer {
+  height: 609px;
+  background-color: rgb(7, 2, 17);
+  font-family: "Inter", sans-serif;
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+}
+
+.foot {
+  margin: 0 auto;
+
+}
+
+.about {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.address p {
+  font-size: 24px;
+  font-weight: 500px;
+  line-height: 40px;
+}
+
+.contact a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 500px;
+  line-height: 40px;
+}
+
+.icon {
+  margin: 50px 0;
+  text-align: center;
+}
+
+.icon img {
+  border: 1px dashed lightgray;
+  margin: 0 12px;
+}
+
+.social {
+  margin-bottom: 50px;
+}
+
+
+.end {
+  display: flex;
+  justify-content: space-between;
+}
+
+.end p {
+  font-size: 24px ;
+  font-weight: 500;
 }
