@@ -279,3 +279,76 @@
   line-height: 32px;
   margin-bottom: 43px;
 }
+
+
+/* discount style */
+
+.holyday-sale {
+  width: 992px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.holyday-sale p {
+  color: rgb(7, 2, 17);
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.holyday-sale h1 {
+  color: rgb(7, 2, 17);
+  font-size: 72px;
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  margin-bottom: 28px;
+}
+
+.holyday-sale span {
+  color: rgb(255, 0, 0);
+}
+
+
+.holyday-sale .holy-des {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  margin-bottom: 64px;
+}
+
+
+/* discount style */
+#discount {
+  margin: 0 auto;
+  height: 662px;
+  background-image: url('../images/Rectangle\ 2.png');
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  display: flex;
+  justify-content: space-around;
+  background-size: 100%;
+}
+
+
+.discount-box {
+  width: 70%;
+  border: 1px dashed lightgray;
+}
+
+.discount-box img {
+  width: 100%;
+}
+
+.discount-box2 {
+  width: 30%;
+  padding-left: 177px;
+  padding-top: 77px;
+
+}
+
+.discount-box2 img {
+   border: 1px dashed lightgray;
+}
