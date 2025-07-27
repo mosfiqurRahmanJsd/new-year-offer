@@ -8,14 +8,7 @@
   padding: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Merriweather", serif;
-}
+
 
 
 /* 
@@ -67,6 +60,7 @@ h6 {
 
 .header-content h3 {
   color: rgb(255, 255, 255);
+  font-family: "Merriweather", serif;
   font-size: 32px;
   font-weight: 400;
   margin-bottom: 16px;
@@ -74,7 +68,44 @@ h6 {
 
 .header-content h1 {
   color: rgb(255, 255, 255);
+  font-family: "Merriweather", serif;
   font-size: 72px;
   font-weight: 900;
   line-height: 95px;
+}
+
+/* offer style */
+.offer {
+  margin-top: 70px;
+  width: 802px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+
+
+.offer-title {
+  color: rgb(255, 0, 0);
+  font-family: "Inter", sans-serif;
+  font-size: 88px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 48px;
+}
+
+.offer-day {
+  color: rgb(255, 0, 0);
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.categories {
+  color: rgb(7, 2, 17);
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 48px;
 }
