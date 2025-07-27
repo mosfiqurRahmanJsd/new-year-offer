@@ -85,7 +85,6 @@
 }
 
 
-
 .offer-title {
   color: rgb(255, 0, 0);
   font-family: "Inter", sans-serif;
@@ -227,7 +226,8 @@
   padding-right: 70px;
 }
 
-.box-1 .title {
+.box-1 .title,
+.title {
   color: rgb(255, 0, 0);
   font-family: "Inter", sans-serif;
   font-size: 24px;
@@ -235,14 +235,16 @@
   margin-bottom: 16px;
 }
 
-.box-1 .sub-title {
+.box-1 .sub-title,
+.sub-title {
   color: rgb(7, 2, 17);
   font-family: "Merriweather", serif;
   font-size: 48px;
   margin-bottom: 22px;
 }
 
-.box-1 .description {
+.box-1 .description,
+.description {
   color: rgba(7, 2, 17, 0.6);
   font-family: "Inter", sans-serif;
   font-size: 20px;
@@ -267,7 +269,7 @@
   padding: 38px;
   border: 15px solid rgb(255, 0, 0);
   border-radius: 50%;
-  
+
 }
 
 
@@ -278,6 +280,10 @@
   font-weight: 400;
   line-height: 32px;
   margin-bottom: 43px;
+}
+
+.box-3 img {
+  border: 1px dashed lightgray;
 }
 
 
@@ -330,6 +336,7 @@
   display: flex;
   justify-content: space-around;
   background-size: 100%;
+  margin-bottom: 120px;
 }
 
 
@@ -350,5 +357,79 @@
 }
 
 .discount-box2 img {
-   border: 1px dashed lightgray;
+  border: 1px dashed lightgray;
+}
+
+
+/* best gift container */
+.best-gift {
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+
+.gift {
+  margin-top: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.gift img {
+  border: 1px dashed lightgray;
+}
+
+
+/* newsletter style */
+.newsletter {
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  height: 616px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.newsletter-box {
+  width: 896px;
+  text-align: center;
+}
+
+.newsletter-box img {
+  border: 1px dashed lightgray;
+  margin-bottom: 66px;
+}
+
+.email-box {
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.email-box input {
+  border: 0;
+}
+
+.email-box input[type="submit"] {
+  background-color: rgb(255, 0, 0);
+  padding: 24px 56px;
+  border-radius: 0 50px 50px 0;
+  color: rgb(255, 255, 255);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.email-box input[type="email"] {
+  
+  width: 438px;
+  border-radius: 50px 0 0 50px;
+}
+
+
+.email-box input[placeholder] {
+  font-family: "Inter", sans-serif;
+  padding: 25px 30px;
 }
